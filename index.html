@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML CLASS</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid rebeccapurple;
+        padding: 4px;
+      }
+    </style>
   </head>
   <body>
     <!-- This is a comment in html -->
@@ -105,10 +115,242 @@
 
     <!-- image element/tag -->
     <h3>Image element</h3>
-    <img src="./assets/images/image 1.jpg" alt="image 1" />
-    <img src="./assets/images/image 2.jpg" alt="image 2" />
-    <img src="./assets/images/image 3.jpg" alt="image 3" />
-    <img src="./assets/images/image 4.png" alt="image 4" />
+    <img src="./assets/images/cake.jpg" alt="image 1" />
+    <img src="./assets/images/Dog.jpg" alt="image 2" />
+    <img src="./assets/images/sunset.jpg" alt="image 3" />
+    <img src="./assets/images/winnie-the-pooh.jpg" alt="image 4" />
     <!-- image element/tag -->
+
+    <!-- form -->
+
+    <h3>Form elements</h3>
+    <form>
+      <div>
+        <input type="text" placeholder="Enter firstname" />
+      </div>
+
+      <div>
+        <input type="text" placeholder="Enter lastname" />
+      </div>
+
+      <div>
+        <input type="text" placeholder="Enter username" />
+      </div>
+      <div>
+        <input type="email" placeholder="Enter your email address" />
+      </div>
+
+      <div>
+        <input type="password" placeholder="Enter password" />
+      </div>
+
+      <div>
+        <input type="date" />
+      </div>
+
+      <div>
+        <input type="tel" placeholder="Enter phone number" />
+      </div>
+
+      <div>
+        <input type="checkbox" />
+        <label for="">Male</label>
+      </div>
+
+      <div>
+        <input type="checkbox" />
+        <label for="">Female</label>
+      </div>
+
+      <div>
+        <h3>Select your courses below</h3>
+
+        <div>
+          <input type="radio" />
+          <label for="">Fullstack Development</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Frontend Engineering</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Backend Engineering</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Cybersecurity</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Devops</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Product Design</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Product Manager</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Data analysis</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Quality Assurance</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Technical Team Lead</label>
+        </div>
+      </div>
+
+      <div>
+        <h3>Select school of choice to start learning how to code</h3>
+        <select>
+          <option value="Marusoft Academy">Marusoft Academy</option>
+          <option value="Ahliyat Academy">Ahliyat Academy</option>
+          <option value="Nnaemeka and sons Academy">
+            Nnaemeka and sons Academy
+          </option>
+          <option value="SS Academy">SS Academy</option>
+          <option value="Code to the world Academy">
+            Code to he world Academy
+          </option>
+          <option value="All things coding Academy">
+            All things coding Academy
+          </option>
+          <option value="programming world Academy">
+            programming world Academy
+          </option>
+          <option value="Create Academy">Create Academy</option>
+          <option value="Ella's world Academy">Ella's world Academy</option>
+          <option value=" Academy">miss lola Academy</option>
+          <option value="Marusoft Academy">Patrick's playground Academy</option>
+          <option value="Marusoft Academy">Nuel Tech Academy</option>
+        </select>
+      </div>
+
+      <div>
+        <button type="submit">Send info</button>
+      </div>
+
+      <div>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    <!-- form -->
+
+    <!-- table -->
+    <div>
+      <h3>Admission table</h3>
+      <table>
+        <tr>
+          <th>admission number</th>
+          <th>first name</th>
+          <th>last name</th>
+          <th>institution</th>
+          <th>faculty</th>
+          <th>department</th>
+          <th>admission status</th>
+        </tr>
+        <tr>
+          <td>f561</td>
+          <td>Aliyat</td>
+          <td>Orenuga</td>
+          <td>Fuoye</td>
+          <td>Management Science</td>
+          <td>Accounting</td>
+          <td>Admitted</td>
+        </tr>
+        <tr>
+          <td>m262</td>
+          <td>Mc joseph</td>
+          <td>Nwabuko</td>
+          <td>Unizik</td>
+          <td>Management Science</td>
+          <td>Accounting</td>
+          <td>Admitted</td>
+        </tr>
+        <tr>
+          <td>229</td>
+          <td>precious</td>
+          <td>Igbinoba</td>
+          <td>AAU</td>
+          <td>Health Sciences</td>
+          <td>Nursing</td>
+          <td>Admitted</td>
+        </tr>
+        <tr>
+          <td>m489</td>
+          <td>Patrick</td>
+          <td>Enebeli</td>
+          <td>Uniport</td>
+          <td>Health Sciences</td>
+          <td>Nursing</td>
+          <td>Admitted</td>
+        </tr>
+      </table>
+    </div>
+    <!-- table -->
+
+    <!-- anchor tag -->
+    <div>
+      <a href="/pages/aboutus.html">Go to about us page</a>
+    </div>
+
+    <div>
+      <a href="/pages/admin.html">Go to admin page</a>
+    </div>
+    <div>
+      <a href="/pages/contactus.html">Go to contact us page</a>
+    </div>
+    <div>
+      <a href="/pages/student.html">Go to student page</a>
+    </div>
+
+    <!-- anchor tag -->
+
+    <h2>Download file</h2>
+    <!-- To create a downlload -->
+    <a href="/assets/images/Hijabi.jpg" download>Download</a>
+    <!-- To create a downlload -->
+
+    <!-- To create an upload -->
+    <h2>Upload Section file</h2>
+    <span>Choose a file to upload</span>
+    <input type="file"  accept="image/png image/jpg image/jpeg"/>
+    <!-- To create an upload -->
+
+    <!-- control image with loading attribute -->
+   <div>
+    <h2>Loading attribute with 3 values</h2>
+     <img src="/assets/images/sunset.jpg" alt="This is a sunset image" loading="lazy">
+    <h2>Loading attribute with 3 values</h2>
+     <img src="/assets/images/sunset.jpg" alt="This is a sunset image" loading="eager">
+   </div>
+    <!-- control image with loading attribute -->
+    <!-- sup -->
+    <h2>superscript</h2>
+    <p>a <sup>2</sup> + 5a + 6 = 0</p>
+    <p>x <sup>2</sup> + 6x + 9 = 0</p>
+    <p>y <sup>2</sup> + 7y + 12 = 0</p>
+    <!-- sup -->
+
+    
+    <!-- sub -->
+   <h2>subscipt</h2>
+    <h4>laws of logarithm</h4>
+    <p> loga <sub>10</sub> + logb <sub>10</sub> = logab <sub>10</sub></p>
+    <p> loga <sub>10</sub> - logb <sub>10</sub> = loga/b <sub>10</sub></p>
+
+    <!-- sub -->
+
+    <!-- video --> 
+    <video src=""></video>
+    <!-- video --> 
+   
   </body>
 </html>
